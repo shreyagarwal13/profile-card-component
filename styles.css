@@ -1,0 +1,89 @@
+
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: -40% 150%, 130% -115%;
+}
+.card{
+  width: 350px;
+  height: 370px;
+  margin: 175px auto 70px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+/* Card Top */
+.card-bg{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* Card Middle  */
+.person{
+  text-align: center;
+  margin: 0 auto;
+  transform: translateY(-30%);
+}
+.person-pic{
+  border-radius: 100%;
+  border: 5px solid white;
+}
+.person-name{
+  color:  hsl(229, 23%, 23%);
+  font-weight: 700;
+  font-size: 18px;
+  margin: 12px 0 10px 0 ;
+}
+span{
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  letter-spacing: 1.5px;
+  margin-left: 5px;
+}
+.person-location{
+  margin-top: 0;
+  font-size: 14px;
+  color: hsl(0, 0%, 59%);
+  letter-spacing: 1.5px;
+}
+
+/* Card Footer */
+.details-box{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  border-top: 1px solid #e0e0e0;
+  transform: translateY(-45%);
+}
+.details{
+  padding: 10px 25px;
+}
+.numbers{
+  color:  hsl(229, 23%, 23%);
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 18px
+}
+.followers{
+  font-size: 10px;
+  color: hsl(0, 0%, 59%);
+  margin-top: 5px;
+  letter-spacing: 1.5px;
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px; text-align: center;
+  color: white;
+}
+.attribution a {
+  color: white;
+  text-decoration: none;
+}
+.attribution a:hover{
+  color:hsl(228, 45%, 44%);
+}
